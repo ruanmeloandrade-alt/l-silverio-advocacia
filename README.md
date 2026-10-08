@@ -1,25 +1,31 @@
 # L. Silverio Advocacia
 
-Migracao inicial do projeto Lovable **L. Silverio Advocacia** para GitHub.
+Migracao independente do projeto Lovable para GitHub.
 
-Projeto original Lovable: https://lovable.dev/projects/69685d38-9be8-40d8-8538-457bad36a422
+Site institucional multilingue da Dra. Luciana Silverio, advogada de imigracao em Portugal. A aplicacao nao depende de runtime, pacotes ou metadados Lovable.
 
-## Status
+## Rodar localmente
 
-- Primeira versao funcional em React + Vite.
-- Publicacao preparada via GitHub Pages workflow.
-- Conteudo principal, credenciais, WhatsApp e email preservados a partir do projeto Lovable.
-- Assets visuais originais ficam para refinamento posterior.
-
-## Desenvolvimento
-
-```sh
+```bash
 npm install
 npm run dev
 ```
 
 ## Build
 
-```sh
+```bash
 npm run build
 ```
+
+## Deploy
+
+O workflow `.github/workflows/deploy-pages.yml` publica o site estatico no GitHub Pages.
+
+Depois do deploy, a unica parte externa e apontar o DNS do dominio para o GitHub Pages e configurar o dominio customizado no repositorio.
+
+## Dados de contato
+
+- WhatsApp: +351 937 575 254
+- Email: lucsilverio-67448l@adv.oa.pt
+- Ordem dos Advogados Portugal: 67448L
+- OAB/SP: 404.150
